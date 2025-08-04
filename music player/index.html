@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="music-player">
+        <h1>Music Player</h1>
+        <audio id="audio" src="https://open.spotify.com/track/2K058s9yrpoUfANaQt7Zu4?si=b5bb189121fc4676"></audio>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2K058s9yrpoUfANaQt7Zu4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"></iframe>
+        <button id="play-pause">Play/Pause</button>
+        <button id="next">Next</button>
+        <button id="prev">Previous</button>
+        <input id="progress-bar" type="range" value="0">
+        <span id="current-time">0:00</span>
+        <span id="total-time">0:00</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

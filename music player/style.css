@@ -1,0 +1,10 @@
+.music-player {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: red;
+}
+
+#progress-bar {
+    width: 100%;
+}
